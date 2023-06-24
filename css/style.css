@@ -10,9 +10,30 @@ body {
 }
 .container-grid {
   width: 85%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
+.conteudo-social {
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 20px;
+  z-index: 50;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1.0em;
+}
+
+.conteudo-social a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 0.5em;
+}
+
 header {
   z-index: 1;
   background-color: #F9003D;
